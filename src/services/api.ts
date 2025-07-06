@@ -1,6 +1,6 @@
 import { Todo, TodoFormData, ApiResponse } from '../types/todo';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:3000/api';
+const API_BASE_URL = 'https://test-backend-n1sq.onrender.com/api';
 
 /**
  * API service for handling todo operations
